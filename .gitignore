@@ -1,0 +1,10 @@
+# IntelliJ IDEA files
+*.ipr
+*.iml
+*.iws
+/.idea/*
+!/.idea/codeStyleSettings.xml
+!/.idea/projectCodeStyle.xml
+
+# maven
+/target
