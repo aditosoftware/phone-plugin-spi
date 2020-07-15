@@ -11,8 +11,8 @@ import de.adito.aditoweb.cti.spi.*;
 
 public class AditoCallEvent
 {
-  private ICall call;
-  private ICallInfo callInfo;
+  private final ICall call;
+  private final ICallInfo callInfo;
 
   public AditoCallEvent(ICall pCall)
   {

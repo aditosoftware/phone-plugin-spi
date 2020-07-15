@@ -24,4 +24,11 @@ public interface IPhoneFactory
    */
   String[] getAddresses() throws CtiException;
 
+  /**
+   * Beendet diese Factory und alle damit verbundenen Ressourcen.
+   */
+  default void shutdown()
+  {
+  }
+
 }

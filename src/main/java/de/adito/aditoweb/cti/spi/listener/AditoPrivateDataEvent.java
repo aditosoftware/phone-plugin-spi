@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class AditoPrivateDataEvent extends AditoCallEvent
 {
-  private Map<String, String> privateData;
+  private final Map<String, String> privateData;
 
   public AditoPrivateDataEvent(ICall pCall, Map<String, String> pPrivateData)
   {
